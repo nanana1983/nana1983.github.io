@@ -4,6 +4,8 @@
 
 ### 주요 기능
 
+신호등 제어 시스템 유튜브 링크 : https://youtu.be/YOF2D1ZUqOs?si=luaq8cqdKk7rCMkN
+
 1. 기본 신호등 사이클
 
 LED가 정해진 순서대로 점등됨
@@ -72,6 +74,7 @@ serialEvent()를 통해 시리얼 데이터를 수신
 
 ## p5.js 코드 설명
 
+![p5js사진기](https://github.com/user-attachments/assets/323daf2a-f1ef-4580-a1bc-ab308a0bce34)
 
 주요 기능
 시리얼 메시지 모니터링
@@ -110,6 +113,9 @@ B:(밝기), R:(빨간불 지속시간), Y:(노란불 지속시간), G:(초록불
 ## 회로 구성
 
 ### LED 연결 (신호 기본 High/Low)
+![회로도](https://github.com/user-attachments/assets/c98121bb-7007-4a5b-929e-98e82475c5fe)
+![회로도실물](https://github.com/user-attachments/assets/bbff05d7-411e-4a52-aa19-2066b7d2f286)
+
 
 디지털 핀(D9, D10, D11)에서 LED를 제어
 
